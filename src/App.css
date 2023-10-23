@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+header{
+    z-index: 100001 !important;
+}
+
+/* setting btn class */
+
+.outlineBtn{
+    @apply px-4 py-2 bg-transparent border border-primary text-primary rounded hover:bg-primary hover:text-white transition-all duration-300
+}
+.btn-primary{
+    @apply bg-primary px-8 py-4 hover:bg-body transition-all duration-300 hover:-translate-y-3 text-white text-xl rounded-full
+}
+.skillcard{
+    border-bottom: 4px solid #5E3BEE;
+}
+
+/* tempat menyimpan style */
